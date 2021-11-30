@@ -1,0 +1,34 @@
+db.posts.insert({
+    title: 'Post One',
+    body: 'Body of post one',
+    category: 'News',
+    tags: ['news', 'events'],
+    user: {
+        name: 'Jone Doe',
+        status: 'author'
+    },
+    dtae: Date()
+})
+
+db.posts.insertMany([
+   {
+    title: 'Post Two',
+    body: 'Body of post two',
+    category: 'Technology',
+    date: Date()
+   },
+   {
+    title: 'Post Three',
+    body: 'Body of post three',
+    category: 'News',
+    date: Date()
+   },
+   {
+    title: 'Post Four',
+    body: 'Body of post four',
+    category: 'Entertainment',
+    date: Date()
+   }
+])
+
+   
